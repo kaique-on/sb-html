@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter";
+}
+header{
+    padding: 16px 48px;
+    background-color: #6313A1;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+#header_left{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+#barra_pesquisa{
+    padding: 12px 40px;
+    width: 40%;
+    border: 1px solid #fff; /* Define a borda de 1px sólida e vermelha */
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+}
+#header_left{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+#header_right{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    font-weight: 200;
+}
+#login_cadastro{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+#header_entrar{
+    font-weight: 900;
+}
