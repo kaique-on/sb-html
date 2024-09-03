@@ -104,6 +104,27 @@ header{
     font-weight: 7  00;
 }
 
+#coluna_salvos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#item_salvos{
+    display: flex;
+    gap: 8px;
+    padding: 8px 0px;
+}
+
+#btn_criar_dissay {
+    padding: 12px;
+    background-color: #FD47BC;
+    display: flex;
+    gap: 8px;
+    color: white;
+    border-radius: 20px;
+}
+
 #main_column{
 
 }
