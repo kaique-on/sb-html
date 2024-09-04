@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+
+body{
+    display: flex;
+    height: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 536px;
+    height: 100vh;
+    background-color: #6313A1;
+}
+#logo_forms{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#espaco_logo{
+    height: 100%;
+    margin: auto;
+}
+#espaco_logo p {
+    color: black;
+}
+
+#inputs_texto h3 {
+
+}
+
+#input {
+
+}
