@@ -13,21 +13,118 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    width: 536px;
+    max-width: 536px;
     height: 100vh;
     background-color: #6313A1;
+    padding: 0px 64px;
 }
+
+#conteudo_top {
+    margin: auto;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+#conteudo_top img{
+    height: 80px;
+}
+
+#esqueceu_senha a {
+    color: transparent;
+    pointer-events: none;
+    cursor: default; 
+}
+
 #logo_forms{
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
+#conteudo_top_principal{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#inputs_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#inputs_column{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#inputs_texto h3 {
+    text-align: center;
+}
+
+#input_item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#input_frame{
+    background-color: #F1F3F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#input_frame p{
+    color: #555;
+    padding: 0px 16px;
+}
+
+#input_frame img{
+    width: 18px;
+    height: 20px;
+    padding: 15px 16px;
+    border-radius: 8px;
+    background-color: #FD47BC;
+}
+
+#botoes_login{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+#botao_cadastro{
+    padding: 12px 0px;
+    background-color: #FD47BC;
+    border-radius: 8px;
+}
+#divisor_ou{
+    display: flex;
+}
+.linha_ou {
+    width: 40%;
+    height: 5px;
+    border-color: #C2C2C2;
+}
+#botao_login{
+
+}
+
 #espaco_logo{
     height: 100%;
     margin: auto;
 }
-#espaco_logo p {
+#espaco_logo img{
+    height: 160px;
+    margin: auto;
+}
+#espaco_logo h2 {
     color: black;
 }
 
